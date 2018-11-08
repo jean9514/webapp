@@ -1,6 +1,3 @@
-/*BASICS*/
-
-/* ---------------------------- */
 /*fonts*/
 @font-face {
     font-family: 'Socicon';
@@ -90,9 +87,488 @@
     font-style: normal;
 }
 
+/*BASICS*/
+
+:root {
+    font-size: 62.5%;
+
+    --blue: #24195d;
+    --blue_tint: #dff2fd;
+
+    --red: #d3072a;
+    --red_tint: #fce5f1;
+}
+
+body {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+    color: black;
+
+    /*clear all space*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*responsive img*/
+img {
+    width: 100%;
+}
+
+/* ---------------------------- */
+
+/*Title*/
+
+h1 {
+    font-size: 8rem;
+    font-family: 'HUSET';
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+    color: var(--red);
+    margin: 0;
+    text-align: center;
+}
+
+h1 span {
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+}
+
+.page_title {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
 
 
 /* ---------------------------- */
+
+/*Text styles*/
+
+h2 {
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: var(--blue);
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    color: var(--blue);
+}
+
+p {
+    line-height: 1.9rem;
+}
+
+a {
+    color: var(--red);
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* ---------------------------- */
+
+/* Content */
+
+header {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.logo img {
+    width: 80%;
+}
+
+
+main {
+    width: 100%;
+    position: relative;
+    padding-top: 100px;
+}
+
+.standard {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 960px;
+    margin: auto;
+}
+
+/* ---------------------------- */
+/*splash img*/
+
+.splash {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.splash img {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+/*forsiden*/
+
+.kommende_events {
+    background-color: #fff;
+    color: #24195d;
+    cursor: pointer;
+}
+
+.kommende_events .content {
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+}
+
+.kommende_events .event-wrapper {
+    position: relative;
+}
+
+.kommende_events .event-wrapper:hover {
+    transition: all 0.5s ease-in-out;
+    opacity: 0.5;
+}
+
+.kommende_events .rubrik {
+    grid-column: 1 / 4;
+}
+
+.kommende_events .dato-box {
+    position: absolute;
+    padding: 13px 16px;
+    top: -10px;
+    left: -10px;
+    background-color: #24195d;
+    color: #fff;
+    text-align: center;
+    border-right: 7px solid #fff;
+    border-bottom: 7px solid #fff;
+    line-height: 130%;
+    z-index: 30;
+}
+
+.kommende_events .dato {
+    font-size: 150%;
+}
+
+.kommende_events .maaned {
+    text-transform: uppercase;
+    font-size: 70%;
+}
+
+.kommende_events .billede {
+    max-height: 30vw;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.kommende_events .sted {
+    font-style: italic;
+}
+
+.kommende_events .title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.kommende_events .postlistview div:first-letter {
+    text-transform: uppercase;
+}
+
+.kommende_events button {
+    padding: 10px;
+    height: 40px;
+    margin: auto;
+    background-color: #24195d;
+    grid-column: 3;
+    color: #fff;
+}
+
+.kommende_events button:hover {
+    background-color: #fff;
+    color: #24195d;
+}
+
+.kommende_events .alle_events_knap {
+    grid-column: 3;
+    align-self: center;
+    margin: auto;
+    grid-column: 2/3;
+}
+
+.kommende_events .alle_events {
+    padding: 10px;
+    width: 100%;
+    background-color: var(--blue);
+    transition: 0.3s;
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+    border: 1px solid var(--blue);
+    text-decoration: none;
+}
+
+.kommende_events .alle_events:hover {
+    background-color: #fff;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    text-decoration: none;
+}
+
+/* ---------------------------- */
+
+/*events*/
+
+.event-data {
+    border-top: 1px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    width: 100%;
+    margin: 0;
+    margin-top: -1px;
+    background-color: white;
+}
+
+.info_01 {
+    grid-column: 1 / 3;
+    padding: 10px;
+    padding-right: 50%;
+    margin-top: 5px;
+    text-align: center;
+    align-self: center;
+}
+
+.event_dato_d {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.event_dato_m {
+    margin-bottom: 0;
+    margin-top: 8px;
+    font-size: 1.8rem;
+}
+
+.event_time {
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.info_02 {
+    grid-column: 3 / 9;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.event_genre {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.info_03 {
+    grid-column: 9 / 11;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: right;
+    padding-right: 25%;
+}
+
+
+.event_title {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 3.2rem;
+    letter-spacing: 0rem;
+    line-height: 3.3rem;
+}
+
+.event_price {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+    align-self: center;
+}
+
+button {
+    grid-column: 11 / 13;
+    padding: 10px;
+    height: 40px;
+    margin: auto;
+    margin-right: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid var(--blue);
+    transition: 0.3s;
+    font-size: 1.4rem;
+}
+
+button:hover {
+    background-color: var(--blue);
+    color: var(--red_tint);
+    cursor: pointer;
+}
+
+.event_buy_knap,
+.event_door {
+    text-align: center;
+
+}
+
+.events .event_buy_knap {
+    grid-column: 11 / 13;
+    align-self: center;
+    width: 100%;
+}
+
+.events .event_buy {
+    padding: 10px;
+    height: auto;
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    border: 1px solid var(--blue);
+    transition: 0.3s;
+    font-size: 1.4rem;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.events .event_buy:hover {
+    background-color: var(--blue);
+    color: var(--red_tint);
+    cursor: pointer;
+}
+
+.events .event_door {
+    width: 100%;
+    font-size: 1.4rem;
+    white-space: nowrap;
+}
+
+.events .detaljer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--red_tint);
+}
+
+.events .imagebar {
+    padding: 0 0 20px 20px;
+}
+
+.events .billede {
+    line-height: 0;
+}
+
+.events .sidebar {
+    padding: 0 75px 40px 20px;
+}
+
+.events .sted {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.events .content {}
+
+.events .content::before {
+    content: "Eventdetaljer:";
+    font-weight: bold;
+}
+
+
+/*the accordion panel*/
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+.events .accordion {
+    cursor: url(/img/open.png), auto;
+    padding: 7px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.events .active,
+.events .accordion:hover {
+    background-color: var(--red_tint);
+}
+
+.events .active {
+    cursor: url(/img/close.png), auto;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+
+.events .panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+/* ---------------------------- */
+
+/* FORSIDE*/
+
+.forside {
+    background-color: var(--blue);
+}
 
 /* LOADER */
 #loader {
@@ -139,3 +615,5 @@
         opacity: 1
     }
 }
+
+/* ---------------------------- */
