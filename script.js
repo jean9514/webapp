@@ -135,15 +135,13 @@ function visEvents() {
         // test
         console.log("EventMaaned: " + eventMaaned);
 
-        //	udtræk dag og fjern evt. 0 i start af streng
+        //	vis dag og fjern evt. 0 i start af datovisningen
         let eventDag = str.substring(6, 8).replace(/^0+/, '');
 
+        // test
         console.log("EventDag: " + eventDag);
 
-        //        // indsæt id, så kommende events på forsiden går til rette sted
-        //        klon.querySelector(".accordion").id = "event_" + event.id;
-
-        // Indsæt eventlisteners m.m. for accordion
+        // Indsætter eventlisteners m.m. for accordion på eventlisten.
         klon.querySelector(".accordion").addEventListener("click", function () {
             this.classList.toggle("active");
             let panel = this.nextElementSibling;
@@ -162,7 +160,7 @@ function visEvents() {
         klon.querySelector("[data-title]").textContent = event.title.rendered;
         klon.querySelector("[data-pris]").textContent = event.acf.pris;
 
-        // Hvis der er link til billetsalg, så indsæt knap med dette - ellers salg i døren
+        // Hvis der er link til billetsalg, så indsættes knap med dette - ellers vises "salg i døren"
         if (event.acf.kob != "") {
             klon.querySelector("[data-kob-knap]").innerHTML = "<a href='' class='event_buy' target='_blank' data-kob>Køb billet</a>";
             klon.querySelector("[data-kob]").setAttribute("href", event.acf.kob);
@@ -170,7 +168,7 @@ function visEvents() {
             klon.querySelector("[data-kob-knap]").innerHTML = "<div class='event_door'>Køb billet<br>i døren</div>";
         }
 
-        // Hvis arrangementet er text-string "gratis", så flyt det til sidste kolonne
+        // Hvis eventet er "gratis", så flyt det til sidste kolonne
         if (event.acf.pris == "Gratis") {
             klon.querySelector("[data-pris]").textContent = "";
             klon.querySelector("[data-kob-knap]").innerHTML = "<div class='event_door'>Gratis</div>";
@@ -181,7 +179,7 @@ function visEvents() {
         klon.querySelector("[data-content]").innerHTML = event.content.rendered;
         klon.querySelector("[data-sted]").textContent = event.acf.sted;
 
-        // tilføj html DOM
+        // tilføj html til DOM
         eventContainer.appendChild(klon);
         console.log("loop er kørt");
     });
@@ -190,7 +188,7 @@ function visEvents() {
 
 //-------------------------
 
-//Accordian-style generel
+//Accordian-style, generel
 var acc = document.getElementsByClassName("accordion");
 var i;
 

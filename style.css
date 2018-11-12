@@ -579,3 +579,11 @@ footer p {
     margin-top: 0;
     text-align: center;
 }
+
+.events.iconbox {
+    text-align: center;
+}
+
+.find_os.iconbox {
+    text-align: center;
+}
