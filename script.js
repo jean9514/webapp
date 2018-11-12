@@ -143,16 +143,16 @@ function visEvents() {
         //        // indsæt id, så kommende events på forsiden går til rette sted
         //        klon.querySelector(".accordion").id = "event_" + event.id;
 
-        //        // Indsæt eventlisteners m.m. for accordion
-        //        klon.querySelector(".accordion").addEventListener("click", function () {
-        //            this.classList.toggle("active");
-        //            let panel = this.nextElementSibling;
-        //            if (panel.style.maxHeight) {
-        //                panel.style.maxHeight = null;
-        //            } else {
-        //                panel.style.maxHeight = panel.scrollHeight + "px";
-        //            }
-        //        });
+        // Indsæt eventlisteners m.m. for accordion
+        klon.querySelector(".accordion").addEventListener("click", function () {
+            this.classList.toggle("active");
+            let panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
 
         klon.querySelector("[data-dato]").textContent = eventDag;
         klon.querySelector("[data-maaned]").textContent = eventMaaned;
