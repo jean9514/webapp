@@ -331,14 +331,14 @@ main {
 
 footer {
     width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     background-color: var(--blue);
     margin-top: 80px;
     padding-top: 25px;
     padding-bottom: 25px;
-}
 
-.iconbox {
-    background-color: red;
 }
 
 footer .content {
@@ -349,9 +349,8 @@ footer .content {
     grid-column-gap: 30px;
 }
 
-.iconbox img,
-.iconbox a {
-    width: 20px;
+footer img {
+    width: 40px;
     margin-left: auto;
     margin-right: auto;
 }
