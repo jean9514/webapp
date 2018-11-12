@@ -1,19 +1,25 @@
-//LOADER
+////LOADER
+//
+////	global var
+//
+//let events = [];
+//let TO;
+//let eventTemplate = document.querySelector("[data-template]");
+//let eventContainer = document.querySelector("[data-container]");
+//
+////	dokument DOM loadet
+//document.addEventListener("DOMContentLoaded", hentJson);
+//
+//document.addEventListener("DOMContentLoaded", start);
+//
+//function start() {
+//    TO = setTimeout(showPage, 3000);
+//}
+//
+//function showPage() {
+//    document.querySelector("#baggrund").style.display = "none";
+//}
 
-let TO;
-
-document.addEventListener("DOMContentLoaded", start);
-
-function start() {
-    TO = setTimeout(showPage, 3000);
-}
-
-
-
-function showPage() {
-    document.querySelector("#loader").style.display = "none";
-    //document.querySelector("#myDiv").style.display = "block";
-}
 
 
 //EVENTS
@@ -22,22 +28,34 @@ function showPage() {
 let events = [];
 let eventTemplate = document.querySelector("[data-template]");
 let eventContainer = document.querySelector("[data-container]");
+let TO;
 
-//	hent og gem URL variabeler
-let urlParams = new URLSearchParams(window.location.search);
-let preload = urlParams.get("preload");
 
-//	føj css-ok navn til id-nummer
-let id = urlParams.get("id");
-id = "event_" + id;
-console.log("urlParams id er: " + id)
-
-//	preload img-url fra link, så accordion højde passer
-let preloadImage = new Image();
-preloadImage.src = preload;
+////	hent og gem URL variabeler
+//let urlParams = new URLSearchParams(window.location.search);
+//let preload = urlParams.get("preload");
+//
+////	føj css-ok navn til id-nummer
+//let id = urlParams.get("id");
+//id = "event_" + id;
+//console.log("urlParams id er: " + id)
+//
+////	preload img-url fra link, så accordion højde passer
+//let preloadImage = new Image();
+//preloadImage.src = preload;
 
 //	dokument DOM loadet
 document.addEventListener("DOMContentLoaded", hentJson);
+
+document.addEventListener("DOMContentLoaded", start);
+
+function start() {
+    TO = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+    document.querySelector("#baggrund").style.display = "none";
+}
 
 //	hent json
 async function hentJson() {
@@ -122,19 +140,19 @@ function visEvents() {
 
         console.log("EventDag: " + eventDag);
 
-        // indsæt id, så kommende events på forsiden går til rette sted
-        klon.querySelector(".accordion").id = "event_" + event.id;
+        //        // indsæt id, så kommende events på forsiden går til rette sted
+        //        klon.querySelector(".accordion").id = "event_" + event.id;
 
-        // Indsæt eventlisteners m.m. for accordion
-        klon.querySelector(".accordion").addEventListener("click", function () {
-            this.classList.toggle("active");
-            let panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-            } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-        });
+        //        // Indsæt eventlisteners m.m. for accordion
+        //        klon.querySelector(".accordion").addEventListener("click", function () {
+        //            this.classList.toggle("active");
+        //            let panel = this.nextElementSibling;
+        //            if (panel.style.maxHeight) {
+        //                panel.style.maxHeight = null;
+        //            } else {
+        //                panel.style.maxHeight = panel.scrollHeight + "px";
+        //            }
+        //        });
 
         klon.querySelector("[data-dato]").textContent = eventDag;
         klon.querySelector("[data-maaned]").textContent = eventMaaned;
@@ -168,24 +186,6 @@ function visEvents() {
         console.log("loop er kørt");
     });
 
-    //	hop til id ved link fra forsiden og fold tilsvarende accordion ud
-    if (id !== null) {
-        window.location.hash = "#" + id;
-        console.log("Hop til id: " + id);
-
-        //	Sæt accordion til aktiv
-        document.querySelector("#" + id).classList.toggle("active");
-        console.log("sæt " + id + " til aktiv");
-
-        let panel = document.querySelector("#" + id).nextElementSibling;
-        if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-        } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-    } else {
-        console.log("Der er ikke noget id");
-    }
 }
 
 //-------------------------

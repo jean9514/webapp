@@ -6,10 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
-    <title>web app til HUSET</title>
+    <title>web app</title>
 </head>
 
 <body>
+    <div id="baggrund">
+        <div id="loader"></div>
+    </div>
+
+    <template data-template>
+        <div class="events event-data">
+            <div id="" class="accordion">
+                <div class="info_01">
+                    <p class="event_dato_d" data-dato></p>
+                    <p class="event_dato_m" data-maaned></p>
+                    <p class="event_time" data-tid></p>
+                </div>
+
+                <div class="info_02">
+                    <p class="event_genre" data-genre></p>
+                    <h2 class="event_title" data-title></h2>
+                </div>
+
+                <div class="info_03">
+                    <p class="event_price" data-pris></p>
+                </div>
+
+                <div class="event_buy_knap" data-kob-knap></div>
+
+                <div class="open_icon"></div>
+            </div>
+            <div class="panel detaljer">
+                <div class="imagebar">
+                    <div class="billede"><img data-billede src="" alt=""></div>
+                    <div class="events_social">
+                        <a class="socicon-facebook" target="_blank" href="https://www.facebook.com/Huset.Koebenhavn"></a>
+                        <a class="socicon-instagram" target="_blank" href="https://www.instagram.com/husetkbh/"></a>
+                    </div>
+                </div>
+                <div class="sidebar">
+                    <div class="sted" data-sted></div>
+                    <div class="content" data-content></div>
+                </div>
+            </div>
+        </div>
+    </template>
+
 
     <head>
         <div class="logo"><img src="img/logo.png" alt="logo"></div>
