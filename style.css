@@ -265,15 +265,17 @@ a:hover {
 /* Content */
 
 header {
-    position: relative;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
     height: 120px;
     width: 100%;
     background-color: var(--blue);
     transition: 0.5 ease;
-    position: relative;
+
 
 }
-
 
 header.show {
     height: auto;
