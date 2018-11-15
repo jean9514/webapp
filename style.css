@@ -113,6 +113,14 @@ body {
 	box-sizing: border-box;
 }
 
+/*responsive img*/
+img {
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
 
 /* loader */
 
@@ -329,9 +337,14 @@ main {
 /* ---------------------------- */
 
 .find_content {
-	margin: 50px;
+	margin: 0 50px 50px 50px;
 }
 
+
+
+iframe {
+	margin-bottom: 95px;
+}
 
 /*events*/
 
@@ -350,7 +363,7 @@ main {
 	grid-template-columns: repeat(12, 1fr);
 }
 
-/* tilføjer baggrundsfarve til knappen når der er clickes på den og når der er mouse-over(hover effekt) */
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 
 .events .active,
 .events .accordion:hover {
@@ -372,7 +385,7 @@ main {
 /* ---------------------------- */
 
 
-*.event-data {
+.event-data {
 	border-top: 1px;
 	border-bottom: 1px;
 	border-bottom-style: solid;
@@ -433,7 +446,6 @@ main {
 	padding-right: 25%;
 }
 
-
 .event_title {
 	margin-bottom: 0;
 	margin-top: 0;
@@ -452,18 +464,17 @@ main {
 .event_buy_knap,
 .event_door {
 	text-align: center;
-
 }
 
 .events .event_buy_knap {
 	grid-column: 8 / 13;
-	margin-top: 20px;
+	justify-self: end;
+	padding-right: 10px;
 }
 
 .events .event_buy {
 	padding: 10px;
 	height: auto;
-	margin: auto;
 	width: 100%;
 	background-color: white;
 	border: 1px solid var(--blue);
@@ -484,6 +495,7 @@ main {
 	width: 100%;
 	font-size: 1.4rem;
 	white-space: nowrap;
+	padding-bottom: 10px;
 }
 
 .events .detaljer {
@@ -519,6 +531,7 @@ main {
 	content: "Eventdetaljer:";
 	font-weight: bold;
 }
+
 
 /*- - - - - - - - - - - - - media queries 768px - - - - - - - - - - - - -*/
 
