@@ -1,176 +1,176 @@
 /*fonts*/
 @font-face {
-    font-family: 'Socicon';
-    src: url('../fonts/Socicon.eot?484r1f');
-    src: url('../fonts/Socicon.eot?484r1f#iefix') format('embedded-opentype'),
-        url('../fonts/Socicon.woff2?484r1f') format('woff2'),
-        url('../fonts/Socicon.ttf?484r1f') format('truetype'),
-        url('../fonts/Socicon.woff?484r1f') format('woff'),
-        url('../fonts/Socicon.svg?484r1f#Socicon') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Socicon';
+	src: url('fonts/Socicon.eot?484r1f');
+	src: url('fonts/Socicon.eot?484r1f#iefix') format('embedded-opentype'),
+		url('fonts/Socicon.woff2?484r1f') format('woff2'),
+		url('fonts/Socicon.ttf?484r1f') format('truetype'),
+		url('fonts/Socicon.woff?484r1f') format('woff'),
+		url('fonts/Socicon.svg?484r1f#Socicon') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 [class^="socicon-"],
 [class*=" socicon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'Socicon' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'Socicon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 @font-face {
-    font-family: 'HUSET';
-    src: url('../fonts/HUSET.eot');
-    src: url('../fonts/HUSET.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/HUSET.woff2') format('woff2'),
-        url('../fonts/HUSET.woff') format('woff'),
-        url('../fonts/HUSET.ttf') format('truetype'),
-        url('../fonts/HUSET.svg#HUSET') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'HUSET';
+	src: url('fonts/HUSET.eot');
+	src: url('fonts/HUSET.eot?#iefix') format('embedded-opentype'),
+		url('fonts/HUSET.woff2') format('woff2'),
+		url('fonts/HUSET.woff') format('woff'),
+		url('fonts/HUSET.ttf') format('truetype'),
+		url('fonts/HUSET.svg#HUSET') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Avenir';
-    src: url('../fonts/AvenirNextLTPro-Italic.eot');
-    src: url('../fonts/AvenirNextLTPro-Italic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/AvenirNextLTPro-Italic.woff2') format('woff2'),
-        url('../fonts/AvenirNextLTPro-Italic.woff') format('woff'),
-        url('../fonts/AvenirNextLTPro-Italic.ttf') format('truetype'),
-        url('../fonts/AvenirNextLTPro-Italic.svg#AvenirNextLTPro-Italic') format('svg');
-    font-weight: normal;
-    font-style: italic;
+	font-family: 'Avenir';
+	src: url('fonts/AvenirNextLTPro-Italic.eot');
+	src: url('fonts/AvenirNextLTPro-Italic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AvenirNextLTPro-Italic.woff2') format('woff2'),
+		url('fonts/AvenirNextLTPro-Italic.woff') format('woff'),
+		url('fonts/AvenirNextLTPro-Italic.ttf') format('truetype'),
+		url('fonts/AvenirNextLTPro-Italic.svg#AvenirNextLTPro-Italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
 }
 
 @font-face {
-    font-family: 'Avenir';
-    src: url('../fonts/AvenirNextLTPro-Demi.eot');
-    src: url('../fonts/AvenirNextLTPro-Demi.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/AvenirNextLTPro-Demi.woff2') format('woff2'),
-        url('../fonts/AvenirNextLTPro-Demi.woff') format('woff'),
-        url('../fonts/AvenirNextLTPro-Demi.ttf') format('truetype'),
-        url('../fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi') format('svg');
-    font-weight: bold;
-    font-style: normal;
+	font-family: 'Avenir';
+	src: url('fonts/AvenirNextLTPro-Demi.eot');
+	src: url('fonts/AvenirNextLTPro-Demi.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AvenirNextLTPro-Demi.woff2') format('woff2'),
+		url('fonts/AvenirNextLTPro-Demi.woff') format('woff'),
+		url('fonts/AvenirNextLTPro-Demi.ttf') format('truetype'),
+		url('fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi') format('svg');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'Avenir';
-    src: url('../fonts/AvenirNextLTPro-DemiItalic.eot');
-    src: url('../fonts/AvenirNextLTPro-DemiItalic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/AvenirNextLTPro-DemiItalic.woff2') format('woff2'),
-        url('../fonts/AvenirNextLTPro-DemiItalic.woff') format('woff'),
-        url('../fonts/AvenirNextLTPro-DemiItalic.ttf') format('truetype'),
-        url('../fonts/AvenirNextLTPro-DemiItalic.svg#AvenirNextLTPro-DemiItalic') format('svg');
-    font-weight: bold;
-    font-style: italic;
+	font-family: 'Avenir';
+	src: url('fonts/AvenirNextLTPro-DemiItalic.eot');
+	src: url('fonts/AvenirNextLTPro-DemiItalic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AvenirNextLTPro-DemiItalic.woff2') format('woff2'),
+		url('fonts/AvenirNextLTPro-DemiItalic.woff') format('woff'),
+		url('fonts/AvenirNextLTPro-DemiItalic.ttf') format('truetype'),
+		url('fonts/AvenirNextLTPro-DemiItalic.svg#AvenirNextLTPro-DemiItalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
 }
 
 @font-face {
-    font-family: 'Avenir';
-    src: url('../fonts/AvenirNextLTPro-Regular.eot');
-    src: url('../fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/AvenirNextLTPro-Regular.woff2') format('woff2'),
-        url('../fonts/AvenirNextLTPro-Regular.woff') format('woff'),
-        url('../fonts/AvenirNextLTPro-Regular.ttf') format('truetype'),
-        url('../fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Avenir';
+	src: url('fonts/AvenirNextLTPro-Regular.eot');
+	src: url('fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AvenirNextLTPro-Regular.woff2') format('woff2'),
+		url('fonts/AvenirNextLTPro-Regular.woff') format('woff'),
+		url('fonts/AvenirNextLTPro-Regular.ttf') format('truetype'),
+		url('fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /*BASICS*/
 
 :root {
-    font-size: 62.5%;
+	font-size: 62.5%;
 
-    --blue: #24195d;
-    --blue_tint: #dff2fd;
+	--blue: #24195d;
+	--blue_tint: #dff2fd;
 
-    --red: #d3072a;
-    --red_tint: #fce5f1;
+	--red: #d3072a;
+	--red_tint: #fce5f1;
 }
 
 body {
-    font-family: 'Avenir';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.3rem;
-    letter-spacing: 0.05rem;
-    color: black;
+	font-family: 'Avenir';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.3rem;
+	letter-spacing: 0.05rem;
+	color: black;
 
-    /*clear all space*/
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	/*clear all space*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 
 /* loader */
 
 #baggrund {
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--blue);
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--blue);
 }
 
 
 #loader {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
-    border: 16px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 16px solid #3498db;
-    width: 120px;
-    height: 120px;
-    animation: spin 2s linear infinite;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	width: 150px;
+	height: 150px;
+	margin: -75px 0 0 -75px;
+	border: 16px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 16px solid rgb(111, 100, 255);
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
+	0% {
+		transform: rotate(0deg);
+	}
 
-    100% {
-        transform: rotate(360deg);
-    }
+	100% {
+		transform: rotate(360deg);
+	}
 }
 
 /* tilføj animation til "page content" */
 .animate-bottom {
-    position: relative;
-    animation-name: animatebottom;
-    animation-duration: 1s
+	position: relative;
+	animation-name: animatebottom;
+	animation-duration: 1s
 }
 
 @keyframes animatebottom {
-    from {
-        bottom: -100px;
-        opacity: 0
-    }
+	from {
+		bottom: -100px;
+		opacity: 0
+	}
 
-    to {
-        bottom: 0;
-        opacity: 1
-    }
+	to {
+		bottom: 0;
+		opacity: 1
+	}
 }
 
 #myDiv {
-    display: none;
-    text-align: center;
+	display: none;
+	text-align: center;
 }
 
 /* ---------------------------- */
@@ -178,7 +178,7 @@ body {
 
 /*responsive img*/
 img {
-    width: 100%;
+	width: 100%;
 }
 
 /* ---------------------------- */
@@ -186,36 +186,40 @@ img {
 /*Title*/
 
 h1 {
-    font-size: 8rem;
-    font-family: 'HUSET';
-    text-transform: uppercase;
-    font-weight: normal;
-    font-style: normal;
-    color: var(--red);
-    margin: 0;
-    text-align: center;
+	font-size: 8rem;
+	font-family: 'HUSET';
+	text-transform: uppercase;
+	font-weight: normal;
+	font-style: normal;
+	color: var(--red);
+	margin: 0;
+	text-align: center;
 }
 
 h1 span {
-    background-color: white;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 2px;
+	background-color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 2px;
 }
 
 .page_title {
-    position: absolute;
-    top: -25px;
-    left: 0;
-    right: 0;
+	position: absolute;
+	top: -25px;
+	left: 0;
+	right: 0;
+}
+
+.page_title h1 {
+	font-size: 6.5em;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 a:link {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 
@@ -224,40 +228,40 @@ a:link {
 /*Text styles*/
 
 h2 {
-    font-weight: bold;
-    font-size: 2.2rem;
-    margin-bottom: 15px;
-    color: var(--blue);
+	font-weight: bold;
+	font-size: 2.2rem;
+	margin-bottom: 15px;
+	color: var(--blue);
 }
 
 h3 {
-    font-weight: bold;
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-    margin-top: 40px;
-    color: var(--blue);
+	font-weight: bold;
+	font-size: 1.8rem;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	color: var(--blue);
 }
 
 p {
-    line-height: 1.9rem;
+	line-height: 1.9rem;
 }
 
 a {
-    color: var(--red);
-    text-decoration: none;
-    font-style: italic;
+	color: var(--red);
+	text-decoration: none;
+	font-style: italic;
 }
 
 a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .bold {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .italic {
-    font-style: italic;
+	font-style: italic;
 }
 
 /* ---------------------------- */
@@ -265,43 +269,43 @@ a:hover {
 /* Content på siden*/
 
 header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    height: 120px;
-    width: 100%;
-    background-color: var(--blue);
-    transition: 0.5 ease;
+	/*	position: fixed;*/
+	top: 0;
+	right: 0;
+	z-index: 1;
+	height: 120px;
+	width: 100%;
+	background-color: var(--blue);
+	transition: 0.5 ease;
 
 }
 
 header.show {
-    height: auto;
+	height: auto;
 }
 
 .logo {
-    position: absolute;
-    top: 30px;
-    left: 30px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
 }
 
 .logo img {
-    width: 180px;
+	width: 180px;
 }
 
 
 main {
-    width: 100%;
-    position: relative;
-    padding-top: 100px;
+	width: 100%;
+	position: relative;
+	padding-top: 100px;
 }
 
 .standard {
-    padding-left: 30px;
-    padding-right: 30px;
-    max-width: 960px;
-    margin: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	max-width: 960px;
+	margin: auto;
 }
 
 
@@ -309,22 +313,23 @@ main {
 /*splash img*/
 
 .splash {
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
 }
 
 .splash img {
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
+	display: block;
+	width: 100vw;
+	/*	height: 100vh;*/
+	object-fit: cover;
+	margin-top: -20px;
 }
 
 /* ---------------------------- */
 
 .find_content {
-    margin: 50px;
+	margin: 50px;
 }
 
 
@@ -335,211 +340,211 @@ main {
 /* Style the buttons that are used to open and close the accordion panel */
 
 .events .accordion {
-    cursor: url(/img/open.png), auto;
-    padding: 7px;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+	cursor: url(/img/open.png), auto;
+	padding: 7px;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
 }
 
 /* tilføjer baggrundsfarve til knappen når der er clickes på den og når der er mouse-over(hover effekt) */
 
 .events .active,
 .events .accordion:hover {
-    background-color: var(--red_tint);
+	background-color: var(--red_tint);
 }
 
 .events .active {
-    cursor: url(/img/close.png), auto;
+	cursor: url(/img/close.png), auto;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 
 .events .panel {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease-out;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.4s ease-out;
 }
 
 /* ---------------------------- */
 
 
 *.event-data {
-    border-top: 1px;
-    border-bottom: 1px;
-    border-bottom-style: solid;
-    border-top-style: solid;
-    width: 100%;
-    margin: 0;
-    margin-top: -1px;
-    background-color: white;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	width: 100%;
+	margin: 0;
+	margin-top: -1px;
+	background-color: white;
 }
 
 .info_01 {
-    grid-column: 1 / 4;
-    padding: 10px;
-    padding-right: 50%;
-    margin-top: 5px;
-    text-align: center;
-    align-self: center;
+	grid-column: 1 / 4;
+	padding: 10px;
+	padding-right: 50%;
+	margin-top: 5px;
+	text-align: center;
+	align-self: center;
 }
 
 .event_dato_d {
-    margin: 0;
-    font-size: 3rem;
-    font-weight: bold;
+	margin: 0;
+	font-size: 3rem;
+	font-weight: bold;
 }
 
 .event_dato_m {
-    margin-bottom: 0;
-    margin-top: 8px;
-    font-size: 1.8rem;
+	margin-bottom: 0;
+	margin-top: 8px;
+	font-size: 1.8rem;
 }
 
 .event_time {
-    margin-bottom: 0;
-    margin-top: 5px;
-    font-style: italic;
+	margin-bottom: 0;
+	margin-top: 5px;
+	font-style: italic;
 }
 
 .info_02 {
-    grid-column: 4 / 13;
-    padding: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
+	grid-column: 4 / 13;
+	padding: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .event_genre {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 1.8rem;
-    font-style: italic;
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 1.8rem;
+	font-style: italic;
 }
 
 .info_03 {
-    grid-column: 4 / 8;
-    padding: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: left;
-    padding-right: 25%;
+	grid-column: 4 / 8;
+	padding: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: left;
+	padding-right: 25%;
 }
 
 
 .event_title {
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 3.2rem;
-    letter-spacing: 0rem;
-    line-height: 3.3rem;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 3.2rem;
+	letter-spacing: 0rem;
+	line-height: 3.3rem;
 }
 
 .event_price {
-    margin: 0;
-    font-size: 1.4rem;
-    font-weight: bold;
-    align-self: center;
+	margin: 0;
+	font-size: 1.4rem;
+	font-weight: bold;
+	align-self: center;
 }
 
 .event_buy_knap,
 .event_door {
-    text-align: center;
+	text-align: center;
 
 }
 
 .events .event_buy_knap {
-    grid-column: 8 / 13;
-    margin-top: 20px;
+	grid-column: 8 / 13;
+	margin-top: 20px;
 }
 
 .events .event_buy {
-    padding: 10px;
-    height: auto;
-    margin: auto;
-    width: 100%;
-    background-color: white;
-    border: 1px solid var(--blue);
-    transition: 0.3s;
-    font-size: 1.4rem;
-    text-align: center;
-    white-space: nowrap;
-    text-decoration: none;
+	padding: 10px;
+	height: auto;
+	margin: auto;
+	width: 100%;
+	background-color: white;
+	border: 1px solid var(--blue);
+	transition: 0.3s;
+	font-size: 1.4rem;
+	text-align: center;
+	white-space: nowrap;
+	text-decoration: none;
 }
 
 .events .event_buy:hover {
-    background-color: var(--blue);
-    color: var(--red_tint);
-    cursor: pointer;
+	background-color: var(--blue);
+	color: var(--red_tint);
+	cursor: pointer;
 }
 
 .events .event_door {
-    width: 100%;
-    font-size: 1.4rem;
-    white-space: nowrap;
+	width: 100%;
+	font-size: 1.4rem;
+	white-space: nowrap;
 }
 
 .events .detaljer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }
 
 .events .imagebar {
-    grid-column: 1 / 3;
-    margin-top: 20px;
+	grid-column: 1 / 3;
+	margin-top: 20px;
 }
 
 .events .billede {
-    line-height: 0;
-    margin-bottom: 20px;
+	line-height: 0;
+	margin-bottom: 20px;
 }
 
 .events .sidebar {
-    grid-column: 1 / 3;
-    margin-top: 20px;
-    margin-bottom: 40px;
+	grid-column: 1 / 3;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 .events .sted {
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-bottom: 20px;
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .events .content {}
 
 .events .content::before {
-    content: "Eventdetaljer:";
-    font-weight: bold;
+	content: "Eventdetaljer:";
+	font-weight: bold;
 }
 
 /*- - - - - - - - - - - - - media queries 768px - - - - - - - - - - - - -*/
 
 @media screen and (min-width: 768px) {
-    .info_01 {
-        grid-column: 1 / 3;
-    }
+	.info_01 {
+		grid-column: 1 / 3;
+	}
 
-    .info_02 {
-        grid-column: 3 / 9;
-    }
+	.info_02 {
+		grid-column: 3 / 9;
+	}
 
-    .info_03 {
-        grid-column: 9 / 11;
-        padding: 10px;
-        margin-top: auto;
-        margin-bottom: auto;
-        text-align: right;
-        padding-right: 25%;
-    }
+	.info_03 {
+		grid-column: 9 / 11;
+		padding: 10px;
+		margin-top: auto;
+		margin-bottom: auto;
+		text-align: right;
+		padding-right: 25%;
+	}
 
-    .events .event_buy_knap {
-        grid-column: 11 / 13;
-        align-self: center;
-        width: 100%;
-    }
+	.events .event_buy_knap {
+		grid-column: 11 / 13;
+		align-self: center;
+		width: 100%;
+	}
 }
 
 /* ---------------------------- */
@@ -548,42 +553,42 @@ main {
 /*footer*/
 
 footer {
-    width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    background-color: var(--blue);
-    margin-top: 80px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: var(--blue);
+	margin-top: 80px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 
 }
 
 footer .content {
-    max-width: 75%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 30px;
+	max-width: 75%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 30px;
 }
 
 footer img {
-    width: 40px;
-    margin-left: auto;
-    margin-right: auto;
+	width: 40px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer p {
-    color: var(--red_tint);
-    margin-bottom: 3px;
-    margin-top: 0;
-    text-align: center;
+	color: var(--red_tint);
+	margin-bottom: 3px;
+	margin-top: 0;
+	text-align: center;
 }
 
 .events.iconbox {
-    text-align: center;
+	text-align: center;
 }
 
 .find_os.iconbox {
-    text-align: center;
+	text-align: center;
 }
