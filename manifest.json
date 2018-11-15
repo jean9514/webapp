@@ -1,4 +1,6 @@
 {
+	"dir": "ltr",
+	"scope": "./",
 	"name": "Huset KBH Events",
 	"short_name": "Huset KBH Events",
 	"lang": "da",
