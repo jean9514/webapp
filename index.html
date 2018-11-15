@@ -2,143 +2,143 @@
 <html lang="da">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 
-    <title>events web app</title>
+	<title>Events web app</title>
 </head>
 
 <body>
-    <!--når appen åbens vises loaderen mens siden og dens indhold hentes-->
-    <div id="baggrund">
-        <div id="loader"></div>
-    </div>
-
-    <template data-template>
-        <div class="events event-data">
-            <div id="" class="accordion">
-                <div class="info_01">
-                    <p class="event_dato_d" data-dato></p>
-                    <p class="event_dato_m" data-maaned></p>
-                    <p class="event_time" data-tid></p>
-                </div>
-
-                <div class="info_02">
-                    <p class="event_genre" data-genre></p>
-                    <h2 class="event_title" data-title></h2>
-                </div>
-
-                <div class="info_03">
-                    <p class="event_price" data-pris></p>
-                </div>
-
-                <div class="event_buy_knap" data-kob-knap></div>
-
-                <div class="open_icon"></div>
-            </div>
-            <div class="panel detaljer">
-                <div class="imagebar">
-                    <div class="billede"><img data-billede src="" alt=""></div>
-                    <div class="events_social">
-                        <a class="socicon-facebook" target="_blank" href="https://www.facebook.com/Huset.Koebenhavn"></a>
-                        <a class="socicon-instagram" target="_blank" href="https://www.instagram.com/husetkbh/"></a>
-                    </div>
-                </div>
-                <div class="sidebar">
-                    <div class="sted" data-sted></div>
-                    <div class="content" data-content></div>
-                </div>
-            </div>
-        </div>
-    </template>
-
-
-    <header>
-        <!--LOGO-->
-        <div class="logo"><img src="img/logo.png" alt="logo"></div>
-
-    </header>
-
-    <!--Splash billede-->
-    <div class="splash">
-        <img src="img/diy1.jpg" alt="">
-    </div>
-
-    <!--overskrift på sitet-->
-    <main>
-        <div class="page_title">
-            <h1><span>Events</span></h1>
-        </div>
-
-        <section class="standard" data-container>
-        </section>
-    </main>
-    <!--Indhold i event oversigten-->
-    <template data-template>
-        <div class="events event-data">
-            <div id="" class="accordion">
-                <div class="info_01">
-                    <p class="event_dato_d" data-dato></p>
-                    <p class="event_dato_m" data-maaned></p>
-                    <p class="event_time" data-tid></p>
-                </div>
-
-                <div class="info_02">
-                    <p class="event_genre" data-genre></p>
-                    <h2 class="event_title" data-title></h2>
-                </div>
-
-                <div class="info_03">
-                    <p class="event_price" data-pris></p>
-                </div>
-
-                <div class="event_buy_knap" data-kob-knap></div>
-
-                <div class="open_icon"></div>
-            </div>
-
-            <div class="panel detaljer">
-                <div class="imagebar">
-                    <div class="billede"><img data-billede src="" alt=""></div>
-                    <div class="events_social">
-                        <a class="socicon-facebook" target="_blank" href="https://www.facebook.com/Huset.Koebenhavn"></a>
-                        <a class="socicon-instagram" target="_blank" href="https://www.instagram.com/husetkbh/"></a>
-                    </div>
-                </div>
-                <div class="sidebar">
-                    <div class="sted" data-sted></div>
-                    <div class="content" data-content></div>
-                </div>
-            </div>
-        </div>
-    </template>
-
-
-    <!--   indhold til footer, ikoner og links -->
-<footer>
-	<div class="content">
-		<div class="events iconbox">
-			<a href="index.html">
-				<img src="svg/event.svg" alt="ikon til Event">
-				<p>Events</p>
-			</a>
-		</div>
-
-		<div class="find_os iconbox">
-			<a href="findos.html">
-				<img src="svg/find_os.svg" alt="ikon til Find os">
-				<p>Find Os</p>
-			</a>
-		</div>
+	<!--når appen åbens vises loaderen mens siden og dens indhold hentes-->
+	<div id="baggrund">
+		<div id="loader"></div>
 	</div>
 
-</footer>
+	<template data-template>
+		<div class="events event-data">
+			<div id="" class="accordion">
+				<div class="info_01">
+					<p class="event_dato_d" data-dato></p>
+					<p class="event_dato_m" data-maaned></p>
+					<p class="event_time" data-tid></p>
+				</div>
 
-    <!--Javascript-->
+				<div class="info_02">
+					<p class="event_genre" data-genre></p>
+					<h2 class="event_title" data-title></h2>
+				</div>
 
-    <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+				<div class="info_03">
+					<p class="event_price" data-pris></p>
+				</div>
+
+				<div class="event_buy_knap" data-kob-knap></div>
+
+				<div class="open_icon"></div>
+			</div>
+			<div class="panel detaljer">
+				<div class="imagebar">
+					<div class="billede"><img data-billede src="" alt=""></div>
+					<div class="events_social">
+						<a class="socicon-facebook" target="_blank" href="https://www.facebook.com/Huset.Koebenhavn"></a>
+						<a class="socicon-instagram" target="_blank" href="https://www.instagram.com/husetkbh/"></a>
+					</div>
+				</div>
+				<div class="sidebar">
+					<div class="sted" data-sted></div>
+					<div class="content" data-content></div>
+				</div>
+			</div>
+		</div>
+	</template>
+
+
+	<header>
+		<!--LOGO-->
+		<div class="logo"><img src="img/logo.png" alt="logo"></div>
+
+	</header>
+
+	<!--Splash billede-->
+	<div class="splash">
+		<img src="img/diy1.jpg" alt="">
+	</div>
+
+	<!--overskrift på sitet-->
+	<main>
+		<div class="page_title">
+			<h1><span>Events</span></h1>
+		</div>
+
+		<section class="standard" data-container>
+		</section>
+	</main>
+	<!--Indhold i event oversigten-->
+	<template data-template>
+		<div class="events event-data">
+			<div id="" class="accordion">
+				<div class="info_01">
+					<p class="event_dato_d" data-dato></p>
+					<p class="event_dato_m" data-maaned></p>
+					<p class="event_time" data-tid></p>
+				</div>
+
+				<div class="info_02">
+					<p class="event_genre" data-genre></p>
+					<h2 class="event_title" data-title></h2>
+				</div>
+
+				<div class="info_03">
+					<p class="event_price" data-pris></p>
+				</div>
+
+				<div class="event_buy_knap" data-kob-knap></div>
+
+				<div class="open_icon"></div>
+			</div>
+
+			<div class="panel detaljer">
+				<div class="imagebar">
+					<div class="billede"><img data-billede src="" alt=""></div>
+					<div class="events_social">
+						<a class="socicon-facebook" target="_blank" href="https://www.facebook.com/Huset.Koebenhavn"></a>
+						<a class="socicon-instagram" target="_blank" href="https://www.instagram.com/husetkbh/"></a>
+					</div>
+				</div>
+				<div class="sidebar">
+					<div class="sted" data-sted></div>
+					<div class="content" data-content></div>
+				</div>
+			</div>
+		</div>
+	</template>
+
+
+	<!--   indhold til footer, ikoner og links -->
+	<footer>
+		<div class="content">
+			<div class="events iconbox">
+				<a href="index.html">
+					<img src="svg/event.svg" alt="ikon til Event">
+					<p>Events</p>
+				</a>
+			</div>
+
+			<div class="find_os iconbox">
+				<a href="findos.html">
+					<img src="svg/find_os.svg" alt="ikon til Find os">
+					<p>Find Os</p>
+				</a>
+			</div>
+		</div>
+
+	</footer>
+
+	<!--Javascript-->
+
+	<script src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
 </body>
 
